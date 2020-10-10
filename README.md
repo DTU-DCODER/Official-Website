@@ -6,3 +6,11 @@ Checklist:
 *  Make Contributing guidelines
 *  Setup frontend homepage
 *  Make Issue template and pr template
+---
+
+## Techstack:
+MERN
+---
+* Frontend-React
+* Backend-Node
+* Database handling-MongoDB
