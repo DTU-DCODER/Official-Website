@@ -12,5 +12,5 @@ Checklist:
 MERN
 ---
 * Frontend-React
-* Backend-Node
+* Backend-Node (Express)
 * Database handling-MongoDB
