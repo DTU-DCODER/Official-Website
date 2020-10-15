@@ -1,0 +1,107 @@
+h1 {
+    font-weight: bold;
+    margin: 0;
+}
+
+.App {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    min-width: 900px !important;
+    height: 100vh;
+}
+.Singup {
+    margin: auto;
+    box-shadow: 15px 20px 30px #e8e8e8;
+    background-color: white;
+    border-start-end-radius: 10px;
+    border-end-end-radius: 10px;
+    height: 560px !important;
+    position: relative;
+    text-align: center;
+}
+.Login {
+    margin: auto;
+    box-shadow: -15px 20px 30px #e8e8e8;
+    border-start-start-radius: 10px;
+    border-end-start-radius: 10px;
+    min-height: 560px !important;
+    position: relative;
+    background: linear-gradient(to right, #5DA2D5, #90CCF4);
+    color: white;
+}
+
+.SignCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+form {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    text-align: center;
+}
+input {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+span {
+    font-size: 12px;
+}
+
+a {
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 15px 0;
+}
+
+button {
+    margin-top:4px;
+    border-radius: 20px;
+    border: 0.1px solid #5DA2D5;
+    background-color: #5DA2D5;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:focus {
+    outline: none;
+}
+
+button.ghost {
+    background-color: transparent !important;
+    border-color: #FFFFFF;
+}
+.overlay-panel {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    top: 0;
+    height: 100%;
+}
