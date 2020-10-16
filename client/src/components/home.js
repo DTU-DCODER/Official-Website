@@ -24,7 +24,7 @@ class Home extends Component {
     render() {
         return (
             <div className='home'>
-                <h1 className='text-center w3-center w3-animate-left'>Welcome to D_CODERS</h1> 
+                <h1 className='text-center w3-center w3-animate-left wel'>Welcome to D_CODERS</h1> 
                 <br />
                 <div className='buttons'>
                     <div className='waste'>
@@ -36,9 +36,9 @@ class Home extends Component {
                     <div className='b2 w3-animate-zoom'>
                         <Link to="/login" className='login'>Login</Link> <br />
                     </div>
-                    <div className='b3 w3-animate-zoom'>
-                        <Button onClick={this.onSubmit} className='logout'>Logout</Button>
-                    </div>
+                    
+                    <Button onClick={this.onSubmit} className=''>Logout</Button>
+                    
                     </div>
             </div>
         );
