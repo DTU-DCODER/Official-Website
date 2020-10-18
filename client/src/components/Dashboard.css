@@ -1,0 +1,14 @@
+.dashboard{
+    display: flex;
+}
+.sidebar{
+    background-color: #252537;
+    height: 100vh;
+    flex: 0.2;
+    min-width: 275px;
+}
+
+.mainBody{
+    display: flex;
+    flex: 0.8;
+}
