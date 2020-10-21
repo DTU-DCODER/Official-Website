@@ -8,6 +8,14 @@ Checklist:
 *  Make Issue template and pr template
 ---
 
+## Sample UI (For Now):-
+
+![Alt Text](https://github.com/DTU-DCODER/Official-Website/blob/master/Sample%20UI/Dashboard.png)
+
+---
+*  New Desgins can be added in the Sample UI Folder.
+---
+
 ## Techstack:
 MERN
 ---
