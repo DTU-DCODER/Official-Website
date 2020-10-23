@@ -1,7 +1,6 @@
 import React from 'react';
 import * as AiIcons from 'react-icons/ai';
 import * as MdIcons from 'react-icons/md';
-import * as GrIcons from 'react-icons/gr';
 import * as RiIcons from 'react-icons/ri';
 import * as IoIcons from 'react-icons/io';
 import * as GiIcons from 'react-icons/gi';
@@ -16,7 +15,7 @@ export const SidebarData = [
     {
       title: 'Resources',
       path: '#resources',
-      icon: <RiIcons.RiPagesFill />,
+      icon: <RiIcons.RiPagesLine />,
       cName: 'nav-text'
     },
     {
