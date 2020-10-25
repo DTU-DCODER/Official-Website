@@ -6,10 +6,8 @@ import MainBody from './MainBody'
 function Dashboard(props) {
     return (
         <div className="dashboard">
-            <Sidebar/>
-            <div className="mainBody">
-                <MainBody />
-            </div>
+            <Sidebar />
+            <MainBody />
         </div>
     );
 }
