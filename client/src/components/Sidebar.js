@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { SidebarData } from './SidebarData';
 import { IconContext } from 'react-icons';
-import { BsTextIndentLeft } from "react-icons/bs";
+import { BsTextIndentLeft,BsTextIndentRight } from "react-icons/bs";
 
 import './Sidebar.css';
 
@@ -15,14 +15,14 @@ function Sidebar() {
             <div className='sidebar'>
                 <Link to='#' className='menu-bar-inactive'>
                     <IconContext.Provider value={{ color: '#252537' }}>
-                        <BsTextIndentLeft onClick={showSidebar} style={{fontSize: '35px'}}/>
+                        <BsTextIndentLeft onClick={showSidebar} />
                     </IconContext.Provider>
                 </Link>
             </div>
-            <IconContext.Provider value={{ color: 'white' }}>  
+            <IconContext.Provider value={{ color: 'white' }}>
                 <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
                             <Link to='#' className='menu-bars' onClick={showSidebar}>
-                                <BsTextIndentLeft />
+                                <BsTextIndentRight />
                             </Link>
                     <ul className='nav-menu-items'>
                         {SidebarData.map((item, index) => {

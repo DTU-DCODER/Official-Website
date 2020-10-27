@@ -17,4 +17,5 @@
     height: 90vh;
     justify-content: center;
     font-size: 3rem;
+    flex-grow: 1;
 }
