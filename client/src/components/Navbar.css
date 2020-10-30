@@ -1,3 +1,20 @@
 .navbar{
-    
+
+}
+
+.navbar .searchbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.searchbar svg {
+  align-self: center;
+}
+
+.searchbar input {
+  background-color: unset;
+}
+
+.profile-settings svg{
+  margin: 10px;
 }
