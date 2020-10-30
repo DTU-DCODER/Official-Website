@@ -1,15 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Sidebar from './Sidebar'
 import './Dashboard.css'
 import MainBody from './MainBody'
 
 function Dashboard(props) {
-    return (
-        <div className="dashboard">
-            <Sidebar />
-            <MainBody />
-        </div>
-    );
+  const [sidebar, setSidebar] = useState(true);
+  const showSidebar = () => setSidebar(!sidebar);
+
+  return (
+      <div className="dashboard">
+          <Sidebar sidebarState={showSidebar} initialState={sidebar}/>
+          <MainBody sidebarState={showSidebar} initialState={sidebar}/>
+      </div>
+  );
 }
 
 export default Dashboard;

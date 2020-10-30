@@ -1,0 +1,17 @@
+.mainBody {
+  width: 100%;
+  position: relative;
+  left: 0;
+}
+
+.mainBody.active {
+  width: calc(100% - 250px);
+  left: 190px;
+}
+
+.body-content {
+  width: auto;
+  height: calc(100% - 61px);
+  background-color: #e9eff4;
+  padding: 1em;
+}
