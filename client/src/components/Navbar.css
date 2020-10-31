@@ -33,8 +33,9 @@
 
 .div {
    background: lightgray;
-   height: 13vh;
+   height: 12vh;
    width: 1px;
+   margin-top: -15px;
 }
 
 .right {
@@ -47,5 +48,11 @@
 @media only screen and (max-width: 992px) {
    .nav-wrapper {
       padding-left: 0;
+      display: grid;
+   }
+
+   .right {
+      flex: 100%;
+      justify-content: space-around;
    }
 }

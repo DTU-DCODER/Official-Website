@@ -15,11 +15,12 @@ function Navbar(props) {
       <div className="navbar">
          <nav>
             <div className="nav-wrapper">
-               <div className="input-field">
+               <div className="input-field hide-on-med-and-down">
                   <i className="material-icons grey-text prefix">search</i>
                   <input id="search" type="text" className="validate" />
                   <label for="search">Search everything...</label>
                </div>
+
                <ul className="right">
                   <div className="imgDiv">
                      <img
@@ -72,7 +73,7 @@ function Navbar(props) {
             style={{ backgroundColor: "#252537" }}
          >
             <li>
-               <a className="text-white" href="#!">
+               <a className="text-white brand-logo" href="#!">
                   Cera.
                </a>
             </li>
