@@ -1,0 +1,81 @@
+
+.home {
+    margin: 100px;
+}
+
+.wel {
+    align-items: center;
+    padding-bottom: 25px;
+    padding-top: 20px;    
+    font-size: 2.5rem;
+    color: #1e49be;
+    background-color: #333;
+    border-radius: 25px;
+}
+
+.buttons {
+    text-align: center;   
+    background-color: rgba(209, 206, 206, 0.8);
+    border-radius: 12px;
+    height: 170px;
+}
+
+.register {
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 12px;
+    padding: 7px;
+    margin-top: 10px;
+    color: #fff;
+}   
+
+.b1 {
+    margin: 10px;
+    background-color: rgba(143, 140, 140, 0.8);
+    width: 50%;
+    align-self: center;
+    text-align: center;
+    margin-left: 330px;
+    margin-top: 10px;
+}
+
+.b1:hover {
+    background-color: #333;
+    color: #000;
+}
+
+.login {
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 12px;
+    padding: 7px;
+    color: #fff;
+}   
+
+.b2 {
+    margin: 10px;
+    background-color: rgba(143, 140, 140, 0.8);
+    width: 50%;
+    align-self: center;
+    text-align: center;
+    margin-left: 330px;
+    margin-top: 10px;
+}
+
+.b2:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+Button {
+    margin: 10px;
+    align-self: center;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+Button:hover {
+    background-color: #333;
+    color: #1e49be;
+}
