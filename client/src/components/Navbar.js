@@ -14,7 +14,11 @@ function Navbar(props) {
               </IconContext.Provider>
               <input placeholder="Search everything..."/>
             </div>
-            <div className="profile-settings">
+            <div className="profile-settings d-flex">
+              <div className="profile-avatar-name d-flex">
+                <img src="https://picsum.photos/30/30" alt="avatar"/>
+                <span>dcoder</span>
+              </div>
               <FiCheck />
               <FiUsers />
               <FiBell />
