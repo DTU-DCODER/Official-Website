@@ -1,7 +1,3 @@
-.navbar{
-
-}
-
 .navbar .searchbar {
   display: flex;
   flex-direction: row;
@@ -17,4 +13,13 @@
 
 .profile-settings svg{
   margin: 10px;
+}
+
+.profile-avatar-name {
+  align-items: center;
+}
+
+.profile-avatar-name img{
+  height: 30px;
+  border-radius: 20px;
 }
