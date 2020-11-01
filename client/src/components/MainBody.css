@@ -15,3 +15,9 @@
   background-color: #e9eff4;
   padding: 1em;
 }
+
+.card-deck .card {
+  border: unset;
+  border-radius: unset;
+  box-shadow: 4px 4px 10px #c3c7ca;
+}
